@@ -6,7 +6,7 @@ import pymongo
 from bs4 import BeautifulSoup
 from requests.exceptions import RequestException
 import requests
-from config import *
+from .config import *
 from hashlib import md5
 from multiprocessing import Pool
 from json.decoder import JSONDecodeError
